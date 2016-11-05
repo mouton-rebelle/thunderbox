@@ -1,48 +1,19 @@
-.navigation{
-  &__logo{
-    color:$orange;
-    background: #FFF;
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding:0 .5rem ;
-    border: 2px solid $orange;
-    &--a{
-      font-style: italic;
-      font-size: 2rem;
-    }
-    &--b{
-      background-color: $orange;
-      color: #FFF;
-    }
-  }
-  &__baseline{
-    background:#FFF;
-    color:$orange;
-    border: 2px solid $orange;
-    line-height: 1.5rem;
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding:0.5rem;
-    text-align: center;
-  }
+.logo{
+  background-size: 300px 77px;
+  text-indent: -999em;
+  background-image:url(../img/logo.png);
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    background-image:url(../img/logo@2x.png);
+}
+  width:300px;
+  height: 77px;
+  position: relative;
+  margin: 1rem auto 0 auto;
 }
 
-.nav{
-  margin:1rem 0;
-  border-right: 1px solid $orange;
-  &__item{
-    &__link{
-      display: block;
-      padding:0.5rem 1rem;
-      text-decoration: none;
-      color:$orange;
-    }
-    &--active{
-      background: $orange;
-      .nav__item__link{
-        color: #FFF;
-      }
-    }
-  }
+.baseline{
+  color:$orange;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  text-transform: uppercase;
 }

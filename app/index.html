@@ -2,30 +2,61 @@
 <html lang="fr-FR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thunderbox</title>
   <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
-  <div class="container">
-    <nav class="navigation">
-      <h1 class="navigation__logo navigation__logo--a">Thunder</h1>
-      <h1 class="navigation__logo navigation__logo--b">Box</h1>
-      <h2 class="navigation__baseline">Studio photo &amp; grosses motos</h2>
-      <ul class="navigation__content nav">
-        <li class="nav__item"><a href="#" class="nav__item__link">Home</a></li>
-        <li class="nav__item"><a href="#" class="nav__item__link">Le matos</a></li>
-        <li class="nav__item nav__item--active"><a href="#" class="nav__item__link">Gallerie</a></li>
-        <li class="nav__item"><a href="#" class="nav__item__link">Nos tarifs</a></li>
-        <li class="nav__item"><a href="#" class="nav__item__link">Infos pratiques</a></li>
-        <li class="nav__item"><a href="#" class="nav__item__link">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus porro rem, veritatis, esse neque mollitia repudiandae odit ad. Officiis doloremque pariatur ea dicta enim ut omnis, blanditiis, ipsa aspernatur ab.
+  <div class="page" id="home">
+    <h1 class="logo">Thunderbox</h1>
+    <h2 class="baseline">Studio photo &amp; grosses motos</h2>
+    <div class="offer">
+      <p><a href="#info">À 15 minutes d'Annecy</a>, Marion Cottet vous reçoit dans un studio professionnel pour une sécance personnalisée.</p>
+      <p>Thunderbox vous offre l'occasion unique d'<a href="#moto">immortaliser votre bécane</a> ou de vous faire <a href="#portrait">tirer le portrait</a>.</p>
     </div>
   </div>
-  <footer class="footer">
-    Thunderbox &copy;2017
-  </footer>
+  <div class="page" id="moto">
+    <div class="page__background cycle">
+      <div class="cycle__item cycle__item--visible" style="background-image: url(img/moto/1.jpg)"></div>
+      <div class="cycle__item" style="background-image: url(img/moto/2.jpg)"></div>
+      <div class="cycle__item" style="background-image: url(img/moto/3.jpg)"></div>
+      <div class="cycle__item" style="background-image: url(img/moto/4.jpg)"></div>
+      <div class="cycle__item" style="background-image: url(img/moto/5.jpg)"></div>
+    </div>
+    <div class="page__content">
+      <div class="content">
+        <h2 class="content__title">
+          Moto
+        </h2>
+        <div class="content__text">
+          <p>Votre moto, c’est un peu de vous !</p>
+          <p>Vous l’aimez, partagez des sensations fortes avec elle et avez peut-être passé du temps à la bricoler ou la faire revivre.</p>
+          <p>Quoi de plus naturel que de lui offrir une séance photo en studio et ainsi garder un souvenir d’elle ?</p>
+          <p>Le jour de la séance, votre moto aura droit à sa mise en beauté pour être impeccable sur les photos. Cette étape pourra être réalisée par vos soins (environ 30min).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page" id="portrait">
+      <div class="content">
+        <h2 class="content__title">
+          Portraits particuliers
+        </h2>
+        <div class="content__text">
+          <p>Besoin de prendre ou reprendre confiance en vous, de passer un moment de détente, d’essayer de nouveaux habits ou tout simplement de vous faire plaisir ? Osez une séance photo en studio !</p>
+          <p>Pensez au chèque cadeau ! Un excellent moyen de découvrir les photos en studio et d’en garder un bon souvenir ! Un portrait offert pour toute personne à l’initiative du chèque.</p>
+          <p>Bien préparer sa séance. Pour une séance réussie, pensez à bien vous reposer la veille et hydratez-vous. Votre peau n’en sera que plus belle ! Apportez des affaires dans lesquelles vous vous sentez à l’aise (sauf pour les nouveaux achats ). Selon le fond que vous aurez choisi, je pourrais vous guider dans vos choix pour que les photos soient le plus harmonieuses possible. Détendez-vous et laissez-vous guider !</p>
+        </div>
+      </div>
+  </div>
+  <div class="page" id="corpo">
+
+  </div>
+  <div class="page" id="info">
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script>
+  </script>
 </body>
 </html>
