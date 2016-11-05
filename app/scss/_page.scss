@@ -1,0 +1,96 @@
+.page{
+  height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px;
+  position: relative;
+  &__background{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
+  &__content{
+    z-index: 999;
+    position: relative;
+  }
+}
+.offer{
+  background: rgba(#000,0.7);
+  padding: 1rem;
+  color:#E7E7E7;
+  text-align: center;
+  line-height: 1.4rem;
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+  p{
+    margin: 0.5rem 0;
+  }
+}
+.cycle{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  &__item{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0;
+    transition: opacity ease-in 0.5s;
+    &--visible{
+      opacity: 1;
+    }
+  }
+}
+#home{
+  background-image: url(../img/home.jpg)
+}
+#moto{
+
+}
+#portrait{
+  background-image: url(../img/portrait.jpg)
+}
+#corpo{
+  background-image: url(../img/corpo.jpg)
+}
+.content{
+  margin: 1rem;
+  max-width: 40%;
+  &__title{
+    border-top-left-radius: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:1rem;
+    background: $orange;
+    margin-bottom: 1px;
+  }
+  &__text{
+    background: rgba(#FFF, .8);
+    border-bottom-right-radius: 1rem;
+    padding:1rem;
+    p{
+      text-align: justify;
+      line-height: 1.2rem;
+      margin-bottom: .5rem;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
