@@ -1,0 +1,48 @@
+.navigation{
+  &__logo{
+    color:$orange;
+    background: #FFF;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:0 .5rem ;
+    border: 2px solid $orange;
+    &--a{
+      font-style: italic;
+      font-size: 2rem;
+    }
+    &--b{
+      background-color: $orange;
+      color: #FFF;
+    }
+  }
+  &__baseline{
+    background:#FFF;
+    color:$orange;
+    border: 2px solid $orange;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding:0.5rem;
+    text-align: center;
+  }
+}
+
+.nav{
+  margin:1rem 0;
+  border-right: 1px solid $orange;
+  &__item{
+    &__link{
+      display: block;
+      padding:0.5rem 1rem;
+      text-decoration: none;
+      color:$orange;
+    }
+    &--active{
+      background: $orange;
+      .nav__item__link{
+        color: #FFF;
+      }
+    }
+  }
+}

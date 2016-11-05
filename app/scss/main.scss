@@ -1,0 +1,39 @@
+@import 'reset';
+@import 'var';
+html{
+  height: 100%;
+  *{
+    box-sizing: content-box;
+  }
+}
+body {
+  position: relative;
+  height: 100%;
+  background-image: url('../img/home.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+@import 'nav';
+@import 'footer';
+.container{
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.navigation{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  flex: 0 1 20%;
+  min-width: 180px;
+  text-align: right;
+}
+.content{
+  padding: 1rem 1rem 1rem 0;
+}
