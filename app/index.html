@@ -57,6 +57,24 @@
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script>
+  function cycle($father, indice)
+  {
+    var $items = $father.children();
+    var nb = $items.length;
+    var $current = $($items.get(indice));
+    indice = (indice+1) >= nb ? 0 : indice + 1;
+    var $next = $($items.get(indice));
+    $current.removeClass('cycle__item--visible');
+    $next.addClass('cycle__item--visible');
+    setTimeout(function(){
+      cycle($father, indice);
+    }, 2000);
+  }
+  $(document).ready(function(){
+    $('.cycle').each(function(index){
+      cycle($(this), 0);
+    });
+  });
   </script>
 </body>
 </html>

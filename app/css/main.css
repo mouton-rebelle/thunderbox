@@ -51,10 +51,10 @@ html {
     box-sizing: content-box; }
 
 a {
-  color: #F49C20;
+  color: #FC5600;
   text-decoration: none; }
   a:hover {
-    background: #F49C20;
+    background: #FC5600;
     color: #000; }
 
 body {
@@ -132,7 +132,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     padding: 1rem;
-    background: #F49C20;
+    background: #FC5600;
     margin-bottom: 1px; }
   .content__text {
     background: rgba(255, 255, 255, 0.8);
@@ -158,7 +158,7 @@ body {
       background-image: url(../img/logo@2x.png); } }
 
 .baseline {
-  color: #F49C20;
+  color: #FC5600;
   letter-spacing: 0.3rem;
   text-align: center;
   text-transform: uppercase; }
