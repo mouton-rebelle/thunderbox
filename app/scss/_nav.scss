@@ -4,16 +4,51 @@
   background-image:url(../img/logo.png);
   @media (-webkit-min-device-pixel-ratio: 2) {
     background-image:url(../img/logo@2x.png);
-}
+  }
   width:300px;
   height: 77px;
   position: relative;
   margin: 1rem auto 0 auto;
+  &__small{
+    background-size: 86px 22px;
+    width: 86px;
+    height: 22px;
+    margin: 0 auto;
+  }
 }
 
 .baseline{
-  color:$orange;
+  color:$main;
   letter-spacing: 0.3rem;
   text-align: center;
   text-transform: uppercase;
+}
+
+.menu{
+  z-index: 9999;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  &__item{
+    color:#000;
+    display: inline-block;
+    text-transform: uppercase;
+    background: $main;
+    flex: 1 0 20%;
+    &--text{
+      padding: 0.5rem;
+    }
+    &--logo{
+      flex: 1 0 100%;
+      background: none;
+      order: 5;
+      padding: 0.5rem;
+    }
+  }
 }

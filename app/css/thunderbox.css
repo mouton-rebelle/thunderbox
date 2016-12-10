@@ -133,7 +133,7 @@ body {
     #moto .parallax__layer--fore .content {
       flex: 0 0 400px; }
       #moto .parallax__layer--fore .content h1 {
-        background: #FC5600;
+        background: #00BAFF;
         color: #FFF;
         padding: 1rem;
         font-size: 2rem;
@@ -160,7 +160,7 @@ body {
     #portrait .parallax__layer--base .content {
       flex: 0 0 440px; }
       #portrait .parallax__layer--base .content h1 {
-        background: #FC5600;
+        background: #00BAFF;
         color: #FFF;
         padding: 1rem;
         font-size: 2rem;
@@ -201,12 +201,12 @@ body {
   margin: 0 0 8rem 0;
   background: #363333;
   text-align: center;
-  border: 2px solid #FC5600;
+  border: 2px solid #00BAFF;
   border-radius: 10px; }
   .head__logo {
     font-size: 3rem;
     padding: .5rem;
-    color: #FC5600;
+    color: #00BAFF;
     text-transform: uppercase;
     font-style: italic; }
   .head__baseline {

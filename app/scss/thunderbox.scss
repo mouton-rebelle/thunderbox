@@ -100,7 +100,7 @@ body {
     .content{
       flex: 0 0 400px;
       h1{
-        background: $orange;
+        background: $main;
         color: #FFF;
         padding: 1rem;
         font-size: 2rem;
@@ -134,7 +134,7 @@ body {
     .content{
       flex: 0 0 440px;
       h1{
-        background: $orange;
+        background: $main;
         color: #FFF;
         padding: 1rem;
         font-size: 2rem;
@@ -185,12 +185,12 @@ body {
   margin:0 0 8rem 0;
   background: $gray;
   text-align: center;
-  border: 2px solid $orange;
+  border: 2px solid $main;
   border-radius: 10px;
   &__logo{
     font-size: 3rem;
     padding: .5rem;
-    color: $orange;
+    color: $main;
     text-transform: uppercase;
     font-style: italic;
   }

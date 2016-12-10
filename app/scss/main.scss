@@ -7,10 +7,10 @@ html{
   }
 }
 a{
-  color: $orange;
+  color: $main;
   text-decoration: none;
   &:hover{
-    background: $orange;
+    background: $main;
     color:#000;
   }
 }
